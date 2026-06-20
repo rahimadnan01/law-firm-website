@@ -1,0 +1,415 @@
+// ─── Practice Areas ──────────────────────────────────────────────────────────
+export const practiceAreas = [
+  {
+    id: 'immigration-law',
+    icon: 'Plane',
+    title: 'Immigration Law',
+    tagline: 'Pathways to a New Beginning',
+    summary: 'Comprehensive immigration solutions for individuals, families, and businesses navigating U.S. immigration processes.',
+    overview: `Immigration law is one of the most complex and rapidly-changing areas of U.S. legal practice. Attorney Syed brings over a decade of experience helping clients achieve their American dream — from family reunification to employment visas and citizenship pathways.`,
+    problems: [
+      'Green card denials or delays with no clear resolution',
+      'Work visa complications affecting employment status',
+      'Removal and deportation proceedings',
+      'Complex family sponsorship bureaucracy',
+      'Asylum and refugee status challenges',
+    ],
+    howWeHelp: [
+      'Filing and managing all USCIS applications with precision',
+      'Representing clients in immigration court proceedings',
+      'Strategic counseling on visa selection and timing',
+      'Appeals and motions to reopen denied cases',
+    ],
+    benefits: [
+      'Bilingual consultation (English & Urdu)',
+      'Deep familiarity with Pakistani documentation requirements',
+      'Direct attorney access throughout your case',
+      'Transparent case status updates',
+    ],
+    faqs: [
+      { q: 'How long does a green card process take?', a: 'Timelines vary by category. Family-based green cards for immediate relatives can take 12–24 months; employment-based can range from 1–10+ years depending on country of origin and preference category.' },
+      { q: 'Can you help if my visa was already denied?', a: 'Yes. We analyze denial reasons and develop strategies to overcome them, whether through an appeal, motion to reconsider, or a new application with stronger documentation.' },
+    ],
+  },
+  {
+    id: 'family-law',
+    icon: 'Heart',
+    title: 'Family Law',
+    tagline: 'Protecting What Matters Most',
+    summary: 'Sensitive, strategic legal counsel for divorce, custody, and family matters with cultural understanding.',
+    overview: `Family law matters are deeply personal. Attorney Syed provides compassionate yet assertive representation in divorce, child custody, support, and domestic matters — with sensitivity to the cultural nuances that often shape these cases for Pakistani-American families.`,
+    problems: [
+      'Contentious divorce proceedings',
+      'International child custody disputes',
+      'Enforcement of custody and support orders',
+      'Domestic partnership dissolutions',
+      'Adoption proceedings',
+    ],
+    howWeHelp: [
+      'Negotiating favorable divorce settlements',
+      'Securing child custody arrangements that protect your children',
+      'Enforcing or modifying existing court orders',
+      'Cross-border family law coordination for overseas Pakistanis',
+    ],
+    benefits: [
+      'Culturally sensitive approach to family matters',
+      'Aggressive negotiation to avoid unnecessary litigation',
+      'Clear communication at every stage',
+      'Discreet and confidential representation',
+    ],
+    faqs: [
+      { q: 'What is the difference between legal separation and divorce?', a: 'Legal separation allows spouses to live apart and establish financial and custody arrangements without legally ending the marriage. Divorce permanently dissolves the marriage.' },
+      { q: 'How is child custody determined?', a: 'Courts apply the "best interest of the child" standard, considering factors like parental stability, relationship with each parent, school, and home environment.' },
+    ],
+  },
+  {
+    id: 'corporate-law',
+    icon: 'Briefcase',
+    title: 'Corporate Law',
+    tagline: 'Structuring Success',
+    summary: 'End-to-end legal support for businesses from formation through growth, contracts, and compliance.',
+    overview: `Whether you are launching a startup, expanding a mid-market business, or navigating a complex corporate transaction, Attorney Syed provides the strategic legal guidance your business needs to operate with confidence and legal certainty.`,
+    problems: [
+      'Choosing the wrong business entity structure',
+      'Partnership disputes and shareholder conflicts',
+      'Regulatory compliance gaps',
+      'Mergers and acquisition complexity',
+      'Corporate governance deficiencies',
+    ],
+    howWeHelp: [
+      'Entity formation: LLC, Corporation, Partnership',
+      'Corporate governance frameworks and bylaws',
+      'M&A due diligence and transaction support',
+      'Regulatory compliance strategy',
+    ],
+    benefits: [
+      'Business-minded legal counsel',
+      'Fixed-fee arrangements for predictable costs',
+      'Experience with US-Pakistan cross-border business',
+      'Long-term strategic partnership',
+    ],
+    faqs: [
+      { q: 'Should I form an LLC or Corporation?', a: 'It depends on your goals. LLCs offer flexibility and pass-through taxation ideal for small businesses. Corporations are better for raising investment capital and offering stock options.' },
+      { q: 'Do I need a lawyer to form a business?', a: 'While not legally required, working with an attorney ensures your structure protects your assets, your operating agreements are enforceable, and you avoid costly early mistakes.' },
+    ],
+  },
+  {
+    id: 'contract-drafting',
+    icon: 'FileText',
+    title: 'Contract Drafting',
+    tagline: 'Agreements That Hold',
+    summary: 'Precision-drafted contracts that protect your interests and prevent disputes before they start.',
+    overview: `A well-drafted contract is your first line of defense in any business or personal transaction. Attorney Syed drafts, reviews, and negotiates contracts with meticulous attention to detail — ensuring your rights are protected and obligations are clearly defined.`,
+    problems: [
+      'Vague contract language leading to disputes',
+      'Unfavorable terms buried in boilerplate',
+      'Vendor and supplier agreement risks',
+      'Employment contract liabilities',
+      'International contract enforceability issues',
+    ],
+    howWeHelp: [
+      'Drafting contracts tailored to your specific transaction',
+      'Reviewing and red-lining proposed agreements',
+      'Negotiating more favorable terms',
+      'NDA, MOU, and Letter of Intent preparation',
+    ],
+    benefits: [
+      'Contracts in plain English or bilingual format',
+      'Fast turnaround on urgent matters',
+      'Flat-fee pricing available',
+      'Experience with US-Pakistan cross-border agreements',
+    ],
+    faqs: [
+      { q: 'Can you review a contract quickly?', a: 'Yes, we offer expedited review services. Most standard contracts can be reviewed within 24–48 business hours.' },
+      { q: 'Are verbal contracts enforceable?', a: 'Sometimes, but they are extremely difficult to enforce without evidence. Written contracts are always preferable and more reliable.' },
+    ],
+  },
+  {
+    id: 'property-disputes',
+    icon: 'Home',
+    title: 'Property Disputes',
+    tagline: 'Defending Your Real Estate Rights',
+    summary: 'Strategic legal counsel for residential and commercial property disputes, title issues, and real estate litigation.',
+    overview: `Property disputes can be financially devastating if not handled swiftly and strategically. Attorney Syed represents buyers, sellers, landlords, tenants, and investors in all manner of real property disputes — including those involving overseas Pakistani property matters.`,
+    problems: [
+      'Title disputes and ownership conflicts',
+      'Landlord-tenant lease violations',
+      'Real estate fraud and misrepresentation',
+      'Boundary and easement disputes',
+      'Property inheritance complications',
+    ],
+    howWeHelp: [
+      'Title examination and cloud-on-title resolution',
+      'Landlord-tenant litigation and negotiations',
+      'Real estate purchase and sale dispute resolution',
+      'Coordination with Pakistani legal counsel for overseas property matters',
+    ],
+    benefits: [
+      'Cross-jurisdictional property experience',
+      'Understanding of Pakistani inheritance and property laws',
+      'Aggressive protection of your real estate assets',
+      'Efficient resolution strategies',
+    ],
+    faqs: [
+      { q: 'Can you help with property matters in Pakistan?', a: 'Yes. While we practice U.S. law, we coordinate with trusted Pakistani legal partners to help clients manage and protect property interests in Pakistan.' },
+      { q: 'What should I do if someone is claiming ownership of my property?', a: 'Contact us immediately. Time-sensitive action including title research, court filings, and injunctive relief may be necessary to protect your rights.' },
+    ],
+  },
+  {
+    id: 'visa-assistance',
+    icon: 'Stamp',
+    title: 'Visa Assistance',
+    tagline: 'Your Visa. Our Priority.',
+    summary: 'Expert guidance on visitor, student, work, and investment visas — with special expertise in Pakistani applicant challenges.',
+    overview: `Visa applications require precision, documentation expertise, and strategic presentation. Attorney Syed has guided hundreds of Pakistani nationals through the U.S. visa process — from visitor visas and F-1 student visas to H-1B work authorizations and investor visas.`,
+    problems: [
+      'Repeated visitor visa denials',
+      'F-1 student visa complications',
+      'H-1B cap lottery and extensions',
+      'Overstay situations requiring resolution',
+      'Visa interview preparation gaps',
+    ],
+    howWeHelp: [
+      'Comprehensive application preparation and review',
+      'Strong supporting documentation strategies',
+      'Visa interview coaching',
+      'Legal responses to RFEs (Requests for Evidence)',
+    ],
+    benefits: [
+      'Specialized knowledge of Pakistani applicant challenges',
+      'High approval rates for well-prepared applications',
+      'Consulate-specific strategy development',
+      'Post-approval compliance counseling',
+    ],
+    faqs: [
+      { q: 'Why was my B-1/B-2 visa denied?', a: 'Most denials are due to failure to demonstrate non-immigrant intent or insufficient ties to home country. We help you build a stronger case for reconsideration.' },
+      { q: 'How do I convert from a visitor visa to a work visa?', a: 'Status changes are complex and timing-sensitive. We evaluate your situation and map out the safest, most efficient pathway.' },
+    ],
+  },
+  {
+    id: 'overseas-pakistani-services',
+    icon: 'Globe',
+    title: 'Overseas Pakistani Legal Services',
+    tagline: 'Your Rights, Wherever You Are',
+    summary: 'Dedicated legal support for Pakistanis living abroad — navigating dual legal systems with confidence.',
+    overview: `Overseas Pakistanis face unique legal challenges that span two legal systems. Attorney Syed offers a comprehensive suite of services specifically designed for the Pakistani diaspora — from power of attorney and inheritance to property management and documentation.`,
+    problems: [
+      'Property management and legal matters in Pakistan',
+      'Power of attorney and documentation needs',
+      'NIC (National Identity Card) and NICOP issues',
+      'Dual citizenship and nationality questions',
+      'Sending financial support and remittances legally',
+    ],
+    howWeHelp: [
+      'U.S.-authenticated power of attorney for Pakistan use',
+      'Coordination with Pakistan Bar Association attorneys',
+      'Documentation authentication and apostille services',
+      'Legal consultation for Pakistan-U.S. cross-border matters',
+    ],
+    benefits: [
+      'Exclusively serving Pakistani diaspora needs',
+      'Urdu-language consultation available',
+      'Trusted Pakistan legal partner network',
+      'Virtual consultations for clients worldwide',
+    ],
+    faqs: [
+      { q: 'Can I get a Power of Attorney notarized in the U.S. for use in Pakistan?', a: 'Yes. We prepare and have POAs authenticated through the U.S. State Department and relevant Pakistani consulate, making them valid for use in Pakistan.' },
+      { q: 'Can I hold dual U.S. and Pakistani citizenship?', a: 'Both countries have specific rules. Pakistan generally allows overseas Pakistanis to hold NICOP while residing abroad. U.S. citizenship law does not generally require renouncing other citizenships.' },
+    ],
+  },
+  {
+    id: 'business-registration',
+    icon: 'Building',
+    title: 'Business Registration',
+    tagline: 'Launch with Legal Confidence',
+    summary: 'Complete business formation services for entrepreneurs, including immigrants and overseas Pakistani investors.',
+    overview: `Starting a business in the United States requires navigating federal and state registration requirements, tax elections, licensing, and compliance frameworks. Attorney Syed makes the process straightforward — particularly for immigrant entrepreneurs and overseas Pakistani investors entering the U.S. market.`,
+    problems: [
+      'Confusion about state vs. federal registration requirements',
+      'Incorrect entity type selection',
+      'Missing licenses and permits',
+      'EIN and IRS compliance for foreign-owned businesses',
+      'Opening U.S. bank accounts as a non-resident',
+    ],
+    howWeHelp: [
+      'State and federal business registration',
+      'EIN application and IRS elections',
+      'Operating agreements and bylaws drafting',
+      'Business license research and application',
+    ],
+    benefits: [
+      'All-in-one formation service',
+      'Experience with non-resident and foreign-owned U.S. businesses',
+      'Registered agent services available',
+      'Ongoing compliance support',
+    ],
+    faqs: [
+      { q: 'Can a Pakistani national own a U.S. business?', a: 'Absolutely. Non-residents and foreign nationals can legally own U.S. LLCs and corporations, subject to certain industry restrictions and tax reporting requirements.' },
+      { q: 'Which state should I register my business in?', a: 'Delaware and Wyoming are popular for their business-friendly laws. However, if you operate in a specific state, registering there often makes more practical sense. We advise based on your situation.' },
+    ],
+  },
+];
+
+// ─── Testimonials ─────────────────────────────────────────────────────────────
+export const testimonials = [
+  {
+    id: 1,
+    name: 'Tariq Mahmood',
+    location: 'Houston, Texas',
+    service: 'Immigration Law',
+    rating: 5,
+    text: 'Attorney Syed secured my green card after two previous lawyers failed me. His attention to detail and deep knowledge of immigration law is unmatched. He was always reachable and explained every step in both English and Urdu.',
+    initials: 'TM',
+  },
+  {
+    id: 2,
+    name: 'Sarah Chen',
+    location: 'New York, NY',
+    service: 'Corporate Law',
+    rating: 5,
+    text: 'We retained Attorney Syed for our company formation and subsequent contract work. His counsel has been invaluable. He is thorough, responsive, and provides practical advice that helps us make informed decisions.',
+    initials: 'SC',
+  },
+  {
+    id: 3,
+    name: 'Amina Qureshi',
+    location: 'Chicago, Illinois',
+    service: 'Family Law',
+    rating: 5,
+    text: 'During the most difficult time of my life, Attorney Syed guided me through my divorce with compassion and professionalism. He understood the cultural dimensions of my situation and protected my children\'s interests throughout.',
+    initials: 'AQ',
+  },
+  {
+    id: 4,
+    name: 'Zubair Khan',
+    location: 'Dallas, Texas',
+    service: 'Overseas Pakistani Services',
+    rating: 5,
+    text: 'I had complicated property matters in both Pakistan and the U.S. Attorney Syed coordinated with both legal systems seamlessly. I could not have resolved these issues without his firm\'s expertise.',
+    initials: 'ZK',
+  },
+  {
+    id: 5,
+    name: 'Michael Rodriguez',
+    location: 'Los Angeles, CA',
+    service: 'Contract Drafting',
+    rating: 5,
+    text: 'The team drafted our vendor agreements with exceptional precision. What impressed me most was their speed — we had a tight deadline and they delivered high-quality work without compromising on thoroughness.',
+    initials: 'MR',
+  },
+  {
+    id: 6,
+    name: 'Fatima Nawaz',
+    location: 'Toronto, Canada',
+    service: 'Visa Assistance',
+    rating: 5,
+    text: 'After two failed U.S. visa attempts, Attorney Syed\'s team completely rebuilt my application strategy. I received my visa on the third attempt. His insight into Pakistani applicant challenges was the difference-maker.',
+    initials: 'FN',
+  },
+];
+
+// ─── Blog Posts ───────────────────────────────────────────────────────────────
+export const blogPosts = [
+  {
+    id: 'h1b-cap-exempt-2025',
+    category: 'Immigration',
+    title: 'Understanding H-1B Cap-Exempt Employers: A Guide for 2025',
+    excerpt: 'Not all H-1B visas are subject to the annual cap lottery. Learn which employers qualify for cap-exempt status and how this can benefit your work visa strategy.',
+    date: 'June 10, 2025',
+    readTime: '6 min read',
+    author: 'Attorney Imran Syed',
+  },
+  {
+    id: 'llc-vs-corporation-2025',
+    category: 'Business Law',
+    title: 'LLC vs. S-Corp vs. C-Corp: Which Structure Is Right for Your Business?',
+    excerpt: 'Choosing the right business entity is one of the most consequential decisions an entrepreneur makes. This guide breaks down the tax implications, liability protections, and operational differences.',
+    date: 'May 28, 2025',
+    readTime: '8 min read',
+    author: 'Attorney Imran Syed',
+  },
+  {
+    id: 'overseas-pakistani-poa',
+    category: 'Overseas Pakistanis',
+    title: 'How to Create a Legally Valid Power of Attorney for Pakistan from the U.S.',
+    excerpt: 'Overseas Pakistanis often need to authorize someone to manage property or legal affairs back home. Here is exactly how to create a U.S.-authenticated POA that is valid under Pakistani law.',
+    date: 'May 14, 2025',
+    readTime: '5 min read',
+    author: 'Attorney Imran Syed',
+  },
+  {
+    id: 'divorce-asset-division',
+    category: 'Family Law',
+    title: 'Marital Asset Division in Community Property vs. Equitable Distribution States',
+    excerpt: 'How your assets get divided in a divorce depends heavily on which state you live in. Understanding these frameworks before filing can significantly impact your financial outcome.',
+    date: 'April 30, 2025',
+    readTime: '7 min read',
+    author: 'Attorney Imran Syed',
+  },
+  {
+    id: 'contract-red-flags',
+    category: 'Contracts',
+    title: '10 Contract Clauses You Should Never Sign Without Legal Review',
+    excerpt: 'From unilateral amendment clauses to hidden arbitration provisions, certain contract terms can expose you to serious risk. A legal eye before you sign can save thousands later.',
+    date: 'April 12, 2025',
+    readTime: '6 min read',
+    author: 'Attorney Imran Syed',
+  },
+  {
+    id: 'b2-visa-denial-response',
+    category: 'Immigration',
+    title: 'Your B-1/B-2 Visa Was Denied: What Now?',
+    excerpt: 'A U.S. visitor visa denial under Section 214(b) is not the end of the road. Understand the denial, address the underlying concerns, and learn how to build a stronger second application.',
+    date: 'March 25, 2025',
+    readTime: '5 min read',
+    author: 'Attorney Imran Syed',
+  },
+];
+
+// ─── Global FAQs ─────────────────────────────────────────────────────────────
+export const globalFaqs = [
+  {
+    q: 'Do you offer consultations in Urdu?',
+    a: 'Yes. Attorney Syed is fully fluent in Urdu and Punjabi, and offers consultations in both English and Urdu to ensure every client fully understands their legal situation.',
+  },
+  {
+    q: 'Do you serve clients outside of the United States?',
+    a: 'Yes. We regularly serve overseas Pakistani clients and others residing outside the U.S. who need U.S. legal counsel. Virtual consultations via Zoom or WhatsApp are available.',
+  },
+  {
+    q: 'What are your consultation fees?',
+    a: 'Initial consultations are offered at a flat fee to ensure you receive substantive legal guidance without financial uncertainty. Contact us for current consultation pricing.',
+  },
+  {
+    q: 'How quickly can I get an appointment?',
+    a: 'We typically accommodate new client consultations within 2–5 business days. Urgent matters can often be addressed within 24–48 hours.',
+  },
+  {
+    q: 'Do you handle cases outside your state?',
+    a: 'For federal immigration matters, we represent clients nationwide. For state-specific matters, we advise on your situation and refer to trusted local counsel where appropriate.',
+  },
+  {
+    q: 'Can I send documents digitally?',
+    a: 'Absolutely. We operate a fully digital-capable practice. Documents can be securely uploaded, reviewed, and signed electronically through our client portal.',
+  },
+];
+
+// ─── Attorney Info ────────────────────────────────────────────────────────────
+export const attorney = {
+  name: 'Imran A. Syed',
+  title: 'Attorney at Law',
+  firm: 'Syed & Associates',
+  tagline: 'Precision. Integrity. Results.',
+  bio: `Attorney Imran A. Syed is a U.S.-licensed attorney with over twelve years of practice spanning immigration law, corporate counsel, family law, and cross-border legal services. Born in Lahore and educated in the United States, he brings a rare combination of cultural fluency and legal expertise that distinguishes his practice.
+
+After graduating cum laude from Georgetown University Law Center, Attorney Syed clerked for a federal judge in the Eastern District of New York before entering private practice. He has since built one of the most trusted law practices serving Pakistani-American communities across the United States.
+
+His practice is defined by direct attorney access — clients work with Attorney Syed personally, not through layers of paralegals — and by a commitment to transparent, fixed-fee arrangements that eliminate billing surprises.`,
+  education: [
+    { degree: 'J.D., cum laude', school: 'Georgetown University Law Center', year: '2012' },
+    { degree: 'B.S., Political Science', school: 'University of Texas at Austin', year: '2009' },
+  ],
+  admissions: ['State Bar of Texas', 'State Bar of New York', 'U.S. District Court, S.D.N.Y.', 'U.S. Court of Appeals, 2nd Circuit'],
+  languages: ['English', 'Urdu', 'Punjabi'],
+  mission: 'To provide every client — regardless of background — with the same caliber of legal counsel traditionally reserved for those with access to elite firms.',
+};
